@@ -21,7 +21,6 @@ describe('treewalker test case', function() {
 	describe('Insertion Test Case', function() {
 		it('It should should be able to insert successfully', function() {
 			treewalker.resolveTree(node, 'childs', function(obj) {
-				throw new Error('Insertion Failed');
 				if (obj.name === 'parent') {
 					//shollow copy the object and push
 					var newObj = {};
@@ -33,7 +32,7 @@ describe('treewalker test case', function() {
 				}
 			});
 			treewalker.resolveTree(node, 'childs', function(obj) {
-				throw new Error('Insertion Failed');
+				
 				if (obj.name === 'parent') {
 					obj.childs.forEach(function(obj) {
 						if (obj.name === newNode.name) {

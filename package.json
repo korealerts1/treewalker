@@ -20,6 +20,7 @@
     "name": "Nelli.Prashanth Kumar",
     "email": "nelli.prashanth1501@gmail.com"
   },
+  "engine": "node 0.11.0",  
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Prashanth-Nelli/treewalker/issues"

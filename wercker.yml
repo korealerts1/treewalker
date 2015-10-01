@@ -6,4 +6,4 @@ build:
         code: echo 1
   after-steps:
     - mzp/http-notify:
-        url: https://qa1.kore.com/hooks/9229f64de053e1e90f0c95c398c87769
+        url: https://qa1.kore.com/hooks/693f4a664d5e40234e14bf5bef668dfd

@@ -7,3 +7,4 @@ build:
   after-steps:
     - mzp/http-notify:
         url: https://qa1.kore.com/hooks/693f4a664d5e40234e14bf5bef668dfd
+        url: https://app.kore.com/hooks/90e93dbb53fc5a6f511ca2d4e137ae8c

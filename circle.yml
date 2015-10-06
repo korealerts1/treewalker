@@ -1,0 +1,13 @@
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    # - url: https://qa1.kore.com/hooks/0f919baf8fdfaf26e13bb1495016ae14
+    - url: https://app.kore.com/hooks/4086223f1ac4a77c25cfe7800c122e9d
+
+general:
+  branches:
+    only:
+      - master # list of branches to build
+      
+general:
+  build_dir: api
